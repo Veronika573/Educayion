@@ -1,0 +1,18 @@
+.container {
+width: 350px;
+height: 70px;
+border-radius: 5px;
+background-color: rgb(201, 199, 199);
+opacity: 0;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(60, 156, 81);
+    color: honeydew;
+    border: none;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+}
