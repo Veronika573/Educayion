@@ -5,10 +5,10 @@ button.addEventListener('click', function () {
     const email = document.getElementById('email').value;
     swal({
         title: "Send this data?",
-        text: ("You entered:"
-        +"Name:"+val
-        +"Surname:"+name
-        +"Email:"+email),
+        text: (`You entered:
+        Name:${val}
+        Surname:${name}
+        Email:${email}`),
         buttons: true,
         dangerMode: true,
       })
